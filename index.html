@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <div class="overflow">
+      <!-- Navbar Start -->
+      <nav class="navbar" data-aos="fade-down">
+        <div class="max-widht">
+          <div class="logo">
+            <a href="#">Ham<span>ka.</span></a>
+          </div>
+          <div class="menu-toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Home Section Start -->
+      <section class="home" id="home">
+        <div class="max-widht">
+          <div class="home-content">
+            <div class="text-1" data-aos="fade-right">Hello, my name is</div>
+            <div class="text-2" data-aos="fade-right">Muhammad Hamka</div>
+            <div class="text-3" data-aos="fade-right">
+              And i'am a <span>Programmer</span>
+            </div>
+            <div class="sfi" data-aos="fade-right">
+              <a href="https://www.instagram.com/hamkawastaken/" target="_blank"
+                ><i class="fa fa-instagram" style="font-size: 16px"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/channel/UCKqdkrafKf0TRS2oJi-UL3g"
+                target="_blank"
+                ><i class="fa fa-youtube-play" style="font-size: 16px"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/muhammad-hamka-809990281/"
+                target="_blank"
+                ><i class="fa fa-linkedin" style="font-size: 16px"></i
+              ></a>
+              <a href="https://github.com/Hamkawastaken" target="_blank"
+                ><i class="fa fa-github" style="font-size: 16px"></i
+              ></a>
+            </div>
+            <button
+              data-aos="fade-right"
+              type="button"
+              class="btn-hire"
+              onclick="openWhatsApp()"
+            >
+              <p>Contact Me!</p>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section Start -->
+      <section class="about" id="about">
+        <div class="main">
+          <img
+            data-aos="zoom-in-up"
+            src="images/IMG_20230220_113458 - Copy.jpg"
+          />
+          <div class="about-text">
+            <h2 data-aos="fade-down">About Me</h2>
+            <h5 data-aos="fade-up">Programmer <span>& Designer</span></h5>
+            <p data-aos="fade-up">
+              My name is Muhammad Hamka Rifa'i, I am Indonesian people, i was
+              born in Depok in 13 March 2007, I am a front-end web developer, I
+              can make the website more interactive with animation, i have
+              learned Html, Css, and Javascript, i using Visual Studio Code as
+              my Source code, and i use figma as my design tool
+            </p>
+            <button
+              data-aos="fade-up"
+              type="button"
+              class="lets-talk-button"
+              onclick="openWhatsAppLetsTalk()"
+            >
+              Let's Talk!
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section Start -->
+      <div class="skills" id="skills">
+        <div class="tittle" data-aos="fade-up">
+          <h2>My Skills</h2>
+        </div>
+
+        <div class="box">
+          <div class="card" data-aos="fade-up-right">
+            <img src="images/html.png.png" />
+            <h5>Html 5</h5>
+            <div class="pra">
+              <p>
+                I've been learning html for quite a long time, and I think my
+                skills are also decent in this html
+              </p>
+
+              <p style="text-align: center">
+                <a
+                  class="button"
+                  href="https://id.wikipedia.org/wiki/HTML"
+                  target="_blank"
+                  >Read More!</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="card" data-aos="fade-up-left">
+            <img src="images/css.png.png" alt="" />
+            <h5>Css 3</h5>
+            <div class="pra">
+              <p>
+                I've been learning css for quite a long time, and I think my
+                skills are also decent in this css
+              </p>
+
+              <p style="text-align: center">
+                <a
+                  class="button"
+                  href="https://id.wikipedia.org/wiki/Cascading_Style_Sheets"
+                  target="_blank"
+                  >Read More!</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="card" data-aos="fade-down-right">
+            <img src="images/figma.png.png" alt="" />
+            <h5>Figma</h5>
+            <div class="pra">
+              <p>
+                I've been learning Figma for quite a long time, and I think my
+                skills are also decent in this Figma
+              </p>
+
+              <p style="text-align: center">
+                <a
+                  class="button"
+                  href="https://id.wikipedia.org/wiki/Figma"
+                  target="_blank"
+                  >Read More!</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Karya Section -->
+      <div class="karya" id="works">
+        <div class="tittle" data-aos="fade-up">
+          <h2>My Works</h2>
+        </div>
+
+        <div class="container">
+          <!-- Filter Button -->
+          <div class="filter_buttons">
+            <button data-aos="fade-right" class="active" data-name="show-all">
+              Diniyyah
+            </button>
+          </div>
+
+          <!-- Image Card -->
+          <div class="filterable_cards">
+            <div data-aos="fade-up-right" class="kartu" data-name="diniyyah">
+              <img class="img" src="images/Frame 22.png" alt="" />
+              <div class="card_body">
+                <h6 class="card_tittle">Poster</h6>
+                <p class="card_text">Ini Adalah Kumpulan Poster Dakwah</p>
+                <button
+                  type="button"
+                  class="btn-card"
+                  data-link="https://drive.google.com/drive/folders/1-GqkNeeK3WZlpmFkR6jo74DKlAI3xqRl"
+                  onclick="openLinkInNewTab(this)"
+                >
+                  See
+                </button>
+              </div>
+            </div>
+            <div data-aos="fade-up-left" class="kartu" data-name="diniyyah">
+              <img class="img" src="images/Teks paragraf Anda.png" alt="" />
+              <div class="card_body">
+                <h6 class="card_tittle">Motion Graphic</h6>
+                <p class="card_text">Motion graphic dari ustadz ahlusunnah</p>
+                <button
+                  type="button"
+                  class="btn-card"
+                  data-link="https://youtube.com/playlist?list=PLIYJSJh9Bq8hZ2dKEzP7kS6ngN5aqhlmq&si=uPqyk4aMeasjdfF2"
+                  onclick="openLinkInNewTab(this)"
+                >
+                  See
+                </button>
+              </div>
+            </div>
+            <div data-aos="fade-down-right" class="kartu" data-name="diniyyah">
+              <img class="img" src="images/Instagram post - 58.png" alt="" />
+              <div class="card_body">
+                <h6 class="card_tittle">Mufrodat</h6>
+                <p class="card_text">Ini adalah kumpulan poster mufrodat</p>
+                <button
+                  type="button"
+                  class="btn-card"
+                  data-link="https://drive.google.com/drive/folders/1Ro5TYGG3bSylhimovXH5BjuDZZnSLg0Z"
+                  onclick="openLinkInNewTab(this)"
+                >
+                  See
+                </button>
+              </div>
+            </div>
+            <div data-aos="fade-down-left" class="kartu" data-name="diniyyah">
+              <img class="img" src="images/Frame 29.png" alt="" />
+              <div class="card_body">
+                <h6 class="card_tittle">Kajian Tauhid Singkat</h6>
+                <p class="card_text">Video singkat membahas tauhid</p>
+                <button
+                  type="button"
+                  class="btn-card"
+                  data-link="https://youtube.com/playlist?list=PLIYJSJh9Bq8gy2XsiE8f8x4Np2eDahuRT&si=TZZKlvjcXa3dDahX"
+                  onclick="openLinkInNewTab(this)"
+                >
+                  See
+                </button>
+              </div>
+            </div>
+            <div data-aos="zoom-in-right" class="kartu" data-name="diniyyah">
+              <img
+                class="img"
+                src="images/White Illustrative Creative Literature Project Presentation (2).png"
+                alt=""
+              />
+              <div class="card_body">
+                <h6 class="card_tittle">Presentasi Fiqih & Nahwu</h6>
+                <p class="card_text">
+                  Video penjelasan beberapa bab di pelajaran fiqih & nahwu
+                </p>
+                <button
+                  type="button"
+                  class="btn-card"
+                  data-link="https://youtube.com/playlist?list=PLIYJSJh9Bq8h7rVJk4PzxDB5L-_qi3nHz&si=VasyZp21Lnpe9RMk"
+                  onclick="openLinkInNewTab(this)"
+                >
+                  See
+                </button>
+              </div>
+            </div>
+            <div data-aos="zoom-in-left" class="kartu" data-name="diniyyah">
+              <img class="img" src="images/4uuqFCHQS2Uhd.jpg" alt="" />
+              <div class="card_body">
+                <h6 class="card_tittle">Sirah Nabawiyah</h6>
+                <p class="card_text">
+                  Video ngobsiyah [Ngobrolin siroh nabawiyah]
+                </p>
+                <button
+                  type="button"
+                  class="btn-card"
+                  data-link="https://youtu.be/4uuqFCHQS2U?si=XM8UbaI7P3HNS934"
+                  onclick="openLinkInNewTab(this)"
+                >
+                  See
+                </button>
+              </div>
+            </div>
+            <div data-aos="zoom-out" class="kartu" data-name="diniyyah">
+              <img class="img" src="images/32kG92mdCSwhd.jpg" alt="" />
+              <div class="card_body">
+                <h6 class="card_tittle">Muhadatsah</h6>
+                <p class="card_text">Video muhadatsah bahasa arab</p>
+                <button
+                  type="button"
+                  class="btn-card"
+                  data-link="https://youtube.com/playlist?list=PLIYJSJh9Bq8h4Umh5YtudqZJcONaqbUlw&si=OlB90DQ-1b4AaKb1"
+                  onclick="openLinkInNewTab(this)"
+                >
+                  See
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter_buttons">
+            <button data-aos="fade-right" class="active" data-name="english">
+              Tahfidz
+            </button>
+          </div>
+
+          <div class="filterable_cards">
+            <div data-aos="zoom-out-up" class="kartu" data-name="diniyyah">
+              <img class="img" src="images/Slide 16_9 - 34 (1).png" alt="" />
+              <div class="card_body">
+                <h6 class="card_tittle">Murottal</h6>
+                <p class="card_text">
+                  Ini adalah video murottal surah al insan
+                </p>
+                <button
+                  type="button"
+                  class="btn-card"
+                  data-link="https://youtu.be/3rI90kE25YQ?si=yB8yaeSYqciZvL44"
+                  onclick="openLinkInNewTab(this)"
+                >
+                  See
+                </button>
+              </div>
+            </div>
+            <div data-aos="zoom-out-down" class="kartu" data-name="diniyyah">
+              <img class="img" src="images/Slide 16_9 - 49.png" alt="" />
+              <div class="card_body">
+                <h6 class="card_tittle">Tajwid</h6>
+                <p class="card_text">
+                  Ini adalah video penjelasan salah satu hukum tajwid
+                </p>
+                <button
+                  type="button"
+                  class="btn-card"
+                  data-link="https://youtu.be/Yy2WSBVhXsE"
+                  onclick="openLinkInNewTab(this)"
+                >
+                  See
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter_buttons">
+            <button data-aos="fade-right" class="active" data-name="tahfidz">
+              English
+            </button>
+          </div>
+
+          <div class="filterable_cards">
+            <div data-aos="zoom-in" class="kartu" data-name="diniyyah">
+              <img class="img" src="images/Slide 16_9 - 36.png" alt="" />
+              <div class="card_body">
+                <h6 class="card_tittle">English Video</h6>
+                <p class="card_text">
+                  Ini adalah kumpulan video bahasa inggris
+                </p>
+                <button
+                  type="button"
+                  class="btn-card"
+                  data-link="https://youtube.com/playlist?list=PLIYJSJh9Bq8hcarkVxDQdGu7WhUQHC_8f&si=i6eh20x1-lmwgR1H"
+                  onclick="openLinkInNewTab(this)"
+                >
+                  See
+                </button>
+              </div>
+            </div>
+            <div data-aos="zoom-out" class="kartu" data-name="diniyyah">
+              <img class="img" src="images/Teks paragraf Anda (1).png" alt="" />
+              <div class="card_body">
+                <h6 class="card_tittle">Motion Graphic English</h6>
+                <p class="card_text">
+                  Ini adalah video motion graphic, tapi bahasa inggris
+                </p>
+                <button
+                  type="button"
+                  class="btn-card"
+                  data-link="https://youtube.com/shorts/tjoxTVOn_U4"
+                  onclick="openLinkInNewTab(this)"
+                >
+                  See
+                </button>
+              </div>
+            </div>
+            <div data-aos="zoom-in" class="kartu" data-name="diniyyah">
+              <img class="img" src="images/Frame 45.png" alt="" />
+              <div class="card_body">
+                <h6 class="card_tittle">English Poster</h6>
+                <p class="card_text">
+                  sama poster juga kaya diatas, tapi bahasa inggris
+                </p>
+                <button
+                  type="button"
+                  class="btn-card"
+                  data-link="https://drive.google.com/drive/folders/12kiznvI6QoLn5GECLxeCYk1yAUoQbCVG"
+                  onclick="openLinkInNewTab(this)"
+                >
+                  See
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+
+      <footer id="contact">
+        <p>Muhammad Hamka</p>
+        <p>
+          If you want to contact me further or just want to chat, you can
+          contact me here.
+        </p>
+        <div class="sosial">
+          <a href="" target="_blank"
+            ><i
+              class="fa fa-whatsapp"
+              style="font-size: 24px"
+              onclick="openWhatsApp()"
+            ></i
+          ></a>
+          <a href="https://www.instagram.com/hamkawastaken/" target="_blank"
+            ><i class="fa fa-instagram" style="font-size: 24px"></i
+          ></a>
+        </div>
+        <p class="end">Copyright by Muhammad Hamka</p>
+      </footer>
+    </div>
+
+    <script src="main.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
